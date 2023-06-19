@@ -7,6 +7,7 @@ export interface User {
 }
 
 export class SerializedUser {
+  id: number;
   username: string;
 
   //Sposób serializacji zalecany przez Twórców Nestjs
